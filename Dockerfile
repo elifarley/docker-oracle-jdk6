@@ -6,5 +6,5 @@ ENV \
 RUN apt-get update -y && apt-get install -y ca-certificates curl && \
   curl -fsSL https://raw.githubusercontent.com/elifarley/cross-installer/master/install.sh | sh && \
   xinstall save-image-info && \
-  xinstall install jdk-6 && \
+  xinstall add jdk-6 && \
   xinstall cleanup
